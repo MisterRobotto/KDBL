@@ -1,6 +1,6 @@
 {
-    "name": "kdbl",
-    "displayName": "KISS Discord Bot Language",
+    "name": "kissbots",
+    "displayName": "KissBots",
     "description": "Limited language for simple and easy Discord bot creation.",
     "version": "0.0.1",
     "publisher": "MisterRobotto",
@@ -12,15 +12,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "kdbl",
-            "aliases": ["KDBL", "kdbl"],
-            "extensions": [".kdbl",".dbot"],
+            "id": "kissbots",
+            "aliases": ["KissBots", "kissbots"],
+            "extensions": [".kbot",".dbot"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "kdbl",
-            "scopeName": "source.kdbl",
-            "path": "./syntaxes/kdbl.tmLanguage.json"
+            "language": "kissbots",
+            "scopeName": "source.kbot",
+            "path": "./syntaxes/kbot.tmLanguage.json"
         }]
     }
 }
