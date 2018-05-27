@@ -5,5 +5,5 @@
     "command": "python",
     "isShellCommand": true,
     "showOutput": "always",
-    "args": ["main.py"]
+    "args": ["lang/main.py"]
 }

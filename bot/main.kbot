@@ -1,0 +1,7 @@
+
+[Setup()]
+def setup()
+{
+    /* This is a comment */
+    return "aaaaa"
+}
